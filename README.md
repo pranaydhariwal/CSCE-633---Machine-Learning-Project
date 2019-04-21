@@ -1,6 +1,6 @@
 ## CSCE-633---Machine-Learning-Project
 
-1) LSTM
+### 1) LSTM
 
 Consists of:
 
@@ -18,7 +18,7 @@ LSTM Architecture
   
 ----------------------------------------------------------
   
-2) C-RNN
+### 2) C-RNN
 
 We train a character-RNN (using mLSTM units) over training data and use the char-RNN as the feature extractor for sentiment analysis.
 
