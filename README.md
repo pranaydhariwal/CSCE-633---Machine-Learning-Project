@@ -16,9 +16,13 @@ LSTM Architecture
   LSTM
   DENSE
   
+----------------------------------------------------------
+  
 2) C-RNN
 
 Train a character-RNN (using mLSTM units) over training data and use the char-RNN as the feature extractor for sentiment analysis.
 
 The method gives us an accuracy of 91.6%.
+
+----------------------------------------------------------
   
