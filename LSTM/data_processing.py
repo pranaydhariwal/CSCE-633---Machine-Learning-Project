@@ -55,6 +55,7 @@ for i in test['sentence']:
     all_words.extend(i.split())
 for i in val['sentence']:
     all_words.extend(i.split())
+all_words = set(all_words)
 word2id = {w:i+1 for i,w in enumerate(all_words)}
 
 train_x = encode(train['sentence'],word2id)
