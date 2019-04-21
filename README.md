@@ -16,6 +16,11 @@ LSTM Architecture
   LSTM
   DENSE
   
+Accuracy:
+      
+      80.076% when using indexes as word values
+      87.23% when using TF-IDF values as word values
+  
 ----------------------------------------------------------
   
 ### 2) C-RNN
