@@ -14,7 +14,7 @@ val_y = pickle.load(open("./SST2/val_y","rb"))
 length = pickle.load(open("./SST2/len","rb"))
 
 model=Sequential()
-model.add(Embedding(length+1, 32, input_length=max_length))
+model.add(Embedding(length+1, 64, input_length=max_length))
 model.add(LSTM(100,return_sequences=True))
 model.add(LSTM(50))
 model.add(Dropout(0.4))
