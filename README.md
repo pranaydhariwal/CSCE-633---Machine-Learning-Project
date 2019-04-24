@@ -1,4 +1,8 @@
-## CSCE-633---Machine-Learning-Project
+## CSCE 633 Machine-Learning-Project
+
+## Sentiment Classification from language
+
+### Dataset used : SST2
 
 ### 1) LSTM
 
